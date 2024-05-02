@@ -14,7 +14,7 @@ const Footer = () => {
 
                 </div>
                 <div>
-                    <h3> important links</h3>
+                    <h3> Important links</h3>
                     <ul>
                         <li><a href=''>Home</a></li>
                         <li><a href=''>About</a></li>
@@ -36,7 +36,7 @@ const Footer = () => {
                 </div>
 
                 <div>
-                        <h3>social media links</h3>
+                        <h3>Social media links</h3>
                         <ul>
                         <li><a href=''>Facebook</a></li>
                         <li><a href=''>Instagram</a></li>

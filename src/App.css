@@ -15,6 +15,10 @@ nav{
   z-index: 10001;
 }
 
+p{
+  margin: 15px;
+}
+
 
 .navbar {
   padding: 10px 13%;
@@ -93,10 +97,12 @@ h3 {
 }
 
 .banner p {
-  font-size: 20px;
+  font-size: 15px;
   max-width: 520px;
   line-height: 1.5;
   margin-bottom: 30px;
+
+ 
 }
 
 button {
@@ -109,6 +115,7 @@ button {
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
+  margin: 20px;
 }
 
 .banner-img{
@@ -166,6 +173,7 @@ input, label{
 .menu-container{
   margin: 110px auto;
   padding: 10px 13%;
+  
 }
 
 .menu-container h2{
@@ -185,6 +193,7 @@ input, label{
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem 1rem;
+  
   
 }
 
@@ -214,8 +223,9 @@ input, label{
 .orderbtn{
   padding: 20px 10px;
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 10px;
   font-weight: 300px;
+  margin: 20px;
 }
 
 footer section{
