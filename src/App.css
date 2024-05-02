@@ -86,23 +86,34 @@ padding: 10px 13%;
 position: relative;
 }
 
-
 h2 {
   color: #F4CE14;
   font-size: 40px;
+  
 }
 
 h3 {
   font-size: 25px;
+ 
 }
+
+.banner h2 {
+  margin: 20px;
+  
+}
+
+.banner h3 {
+  margin: 20px;
+ 
+}
+
 
 .banner p {
   font-size: 15px;
   max-width: 520px;
   line-height: 1.5;
   margin-bottom: 30px;
-
- 
+  margin: 20px; 
 }
 
 button {
