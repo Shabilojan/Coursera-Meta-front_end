@@ -1,14 +1,13 @@
 import React from 'react';
-import BookingForm from './BookingForm';
+import BookingForms from './BookingForm'; // Corrected import path
 
 const Booking = (props) => {
-    return (
-        <BookingForm 
-            availableTimes={props.availableTimes} 
-            dispatch={props.dispatch} 
-            SubmitForm={props. SubmitForm}
-        />
-    );
-}
+  return (
+    <BookingForms
+      availableTimes={props.availableTimes}
+      submitForm={props.submitForm} // Assuming 'submitForm' is the correct prop name
+    />
+  );
+};
 
 export default Booking;
